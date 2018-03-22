@@ -43,6 +43,11 @@ public class VulkanizerskaRadnjaTest {
 		
 		v.dodajGumu(a);
 		
+		LinkedList<AutoGuma> gumeURadnji = v.getGume();
+		
+		for(int i = 0; i < gumeURadnji.size(); i++) {
+			assertTrue(a.equals(gumeURadnji.get(i)));
+		}
 	}
 	
 	@Test (expected = java.lang.RuntimeException.class)

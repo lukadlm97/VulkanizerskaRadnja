@@ -42,4 +42,12 @@ public class VulkanizerskaRadnja {
 			novaLista.add(gume.get(i));
 		return novaLista;
 	}
+	
+	
+	public LinkedList<AutoGuma> getGume() {
+		return gume;
+	}
+	
+	
+	
 }
