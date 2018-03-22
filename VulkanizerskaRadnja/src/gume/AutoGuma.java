@@ -94,10 +94,18 @@ public class AutoGuma {
 			throw new RuntimeException("Visina van opsega");
 		this.visina = visina;
 	}
+	/**
+	 * Ova metoda je override-ovana i vraca sve atribute za model gume.(Marka modela, precnik modela, sirina modela, visina modela).
+	 */
 	@Override
 	public String toString() {
 		return "AutoGuma [markaModel=" + markaModel + ", precnik=" + precnik + ", sirina=" + sirina + ", visina=" + visina + "]";
 	}
+	/**
+	 * Ova metoda je override-ovana i poredi uneti model gume sa datim modelom.
+	 * @return true ako su svi parametri, odnosno atributi jednaki, false ako je neki od parametara, odnosno atributa razlicit
+	 * 
+	 */
 	@Override
 	public boolean equals(Object obj) {
 	if (this == obj)

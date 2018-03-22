@@ -43,7 +43,10 @@ public class VulkanizerskaRadnja {
 		return novaLista;
 	}
 	
-	
+	/**
+	 * Metoda koja vraca sve gume koje se nalaze u podnudi Vulkanizerske radnje
+	 * @return sve modele u asortimanu kao LinkedList
+	 */
 	public LinkedList<AutoGuma> getGume() {
 		return gume;
 	}
